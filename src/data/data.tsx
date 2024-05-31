@@ -80,7 +80,7 @@ export const JsonData = {
         },
         "About": {
             label: "sobre mí",
-            presentation: "Me llamo Sergio Ariel Juarez y soy un creador, apasionado por la lógica y la tecnología de la información. Me motiva el pensar y encontrar distintas soluciones en cada sistema que lo requiera y que se presente en mi camino. Soy Técnico en Producción Audiovisual y Analista de Sistemas. Me desempeño en soluciones web hace más de cinco años, principalmente como Front-end React Typescript developer. También realicé pequeños trabajos académicos como Full-stack Typescript developer. Me encuentro actualmente en la búsqueda de nuevos desafíos, avanzando constantemente con mis habilidades y conocimientos como desarrollador."
+            presentation: "Me llamo Sergio Ariel Juarez y soy un creador, apasionado por la lógica y la informática. Me motiva pensar y encontrar soluciones diferentes en cada sistema que lo requiera y que se presente en mi camino. Estudié como 'Técnico en producción sono-visual' y soy graduado como 'Técnico superior en análisis de sistemas' especializado en el desarrollo web con React y TypeScript durante más de 4 años en una empresa del sector AgTech con visión artificial, programando interfaces de aplicaciones de usuario. Llevo más de cinco años trabajando en el campo de las soluciones web y también he realizado pequeños trabajos académicos como desarrollador Full Stack. Actualmente, estoy en búsqueda de nuevos desafíos y oportunidad de crecimiento, en un grupo de trabajo integral, che me permitan mejorar constantemente mis habilidades y conocimientos como desarrollador web."
         },
         "Contact": {
             label: "contacto",
@@ -137,7 +137,7 @@ export const JsonData = {
         },
         "About": {
             label: "chi sono",
-            presentation: "Mi chiamo Sergio Ariel Juarez e sono un creatore, appassionato di logica e informatica. Sono motivato a pensare e trovare soluzioni diverse in ogni sistema che lo richiede e che mi viene incontro. Sono un Tecnico di Produzione Audiovisiva e Analista di Sistemi. Lavoro nel campo delle soluzioni web da più di cinque anni, principalmente come sviluppatore Front-end React con Typescript. Ho anche svolto piccoli lavori accademici come sviluppatore Full-stack con Typescript. Attualmente sono alla ricerca di nuove sfide, migliorando costantemente le mie capacità e conoscenze come sviluppatore."
+            presentation: "Mi chiamo Sergio Ariel Juarez e sono un creatore, appassionato di logica e informatica. Sono motivato a pensare e trovare soluzioni diverse in ogni sistema che lo richiede e che mi viene incontro. Ho studiato come 'Tecnico di produzione sono-visiva' e sono un laureato triennale come 'Tecnico superiore per l'analisi dei sistemi' che si è specializzato nello sviluppo web con React e TypeScript per oltre 4 anni presso un'azienda nel settore AgTech con visione artificiale, programmando interfacce delle applicazioni utente. Lavoro nel campo delle soluzioni web da più di cinque anni e ho anche svolto piccoli lavori accademici come sviluppatore Full Stack. Attualmente sono alla ricerca di nuove sfide e opportunità di crescita professionale, in un gruppo di lavoro integrale, che mi permettano migliorare costantemente le mie capacità e conoscenze come sviluppatore web."
         },
         "Contact": {
             label: "contatto",
