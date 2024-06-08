@@ -5,15 +5,15 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import {Navigate, Route, Routes, useNavigate} from "react-router-dom"
-import Home from "./components/pages/Home/Home";
-import About from "./components/pages/About/About";
-import Contact from "./components/pages/Contact/Contact";
 import {JsonData} from './data/data'
-import Blog from './components/pages/Blog/Blog';
 import useActivePage from "./presentation/web/hooks/useActivePage";
 import {ACTIVE_PAGE} from "./constants/pages";
 import functionalProgramming from "./concepts/functionalProgramming";
 import javascriptSorprises from "./concepts/javascriptSorprises";
+import Blog from './presentation/web/pages/Blog/Blog';
+import Contact from "./presentation/web/pages/Contact/Contact";
+import About from "./presentation/web/pages/About/About";
+import Home from "./presentation/web/pages/Home/Home";
 
 
 function App() {

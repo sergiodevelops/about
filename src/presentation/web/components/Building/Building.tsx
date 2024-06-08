@@ -1,7 +1,7 @@
 import * as React from "react";
 import Typography from "@mui/material/Typography";
-import {JsonData} from "../../data/data";
 import useLangSelector from "../../hooks/useLangSelector";
+import {JsonData} from "../../../../data/data";
 
 
 function Building() {

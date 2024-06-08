@@ -1,12 +1,11 @@
-import {ACTIVE_PAGE, PAGES} from "../../constants/pages";
 import Button from "@mui/material/Button";
 import {Link, NavLink} from "react-router-dom";
-import {JsonData} from "../../data/data";
 import * as React from "react";
 import useLangSelector from "../../hooks/useLangSelector";
-import {useAppDispatch} from "../../app/hooks";
 import {setActivePage} from "../../reducers/activePage";
 import useActivePage from "../../hooks/useActivePage";
+import {ACTIVE_PAGE, PAGES} from "../../../../constants/pages";
+import {JsonData} from "../../../../data/data";
 
 
 function NavBar() {

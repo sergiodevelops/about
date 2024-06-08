@@ -2,13 +2,13 @@ import {useState, MouseEvent} from "react";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import Menu from "@mui/material/Menu";
-import {ACTIVE_PAGE, PAGES} from "../../constants/pages";
 import {NavLink} from "react-router-dom";
-import {JsonData} from "../../data/data";
 import useLangSelector from "../../hooks/useLangSelector";
 import { Button } from "@mui/material";
 import useActivePage from "../../hooks/useActivePage";
 import {getClassNameItemMenu} from "../../utils/StylesUtils";
+import {ACTIVE_PAGE, PAGES} from "../../../../constants/pages";
+import {JsonData} from "../../../../data/data";
 
 
 function NavBarXS() {

@@ -1,10 +1,10 @@
 import React from 'react'
-import {LANG_CODE, LANGUAGES} from "../../constants/languages";
 import IconButton from "@mui/material/IconButton";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import Typography from "@mui/material/Typography";
 import useLangSelector from "../../hooks/useLangSelector";
+import {LANG_CODE, LANGUAGES} from "../../../../constants/languages";
 
 
 function LangSelectorAvatar() {
