@@ -11,13 +11,13 @@
     "@mui/material": "^5.15.6",
     "@react-pdf/renderer": "^3.3.4",
     "@reduxjs/toolkit": "^2.2.2",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
+    "@testing-library/jest-dom": "^6.4.5",
+    "@testing-library/react": "^16.0.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.76",
-    "@types/react": "^18.2.48",
-    "@types/react-dom": "^18.2.18",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^9.1.0",
@@ -50,5 +50,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@testing-library/dom": "^10.1.0",
+    "@types/react-test-renderer": "^18.3.0",
+    "jest": "^29.7.0",
+    "react-test-renderer": "^18.3.1"
   }
 }

@@ -1,9 +1,9 @@
-import {useAppDispatch, useAppSelector} from "../app/hooks";
+import {useAppDispatch, useAppSelector} from "../../../app/hooks";
 import {useEffect, useState} from "react";
-import {LANG_CODE, LANG_EN} from "../constants/languages";
+import {LANG_CODE, LANG_EN} from "../../../constants/languages";
 import {setCurrentLang} from "../reducers/langSelector";
 import useLocalStorage from "./useLocalStorage";
-import {LOCAL_STORAGE_KEYS} from "../constants/localStorageKeys";
+import {LOCAL_STORAGE_KEYS} from "../../../constants/localStorageKeys";
 
 
 function useLangSelector() {

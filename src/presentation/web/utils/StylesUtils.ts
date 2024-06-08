@@ -1,4 +1,4 @@
-import {ACTIVE_PAGE} from "../constants/pages";
+import {ACTIVE_PAGE} from "../../../constants/pages";
 
 
 export const getClassNameItemMenu = (props: {

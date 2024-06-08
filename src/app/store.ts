@@ -1,6 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit'
-import langSelectorReducer from '../reducers/langSelector'
-import activePageReducer from '../reducers/activePage'
+import langSelectorReducer from '../presentation/web/reducers/langSelector'
+import activePageReducer from '../presentation/web/reducers/activePage'
 
 
 export const store = configureStore({

@@ -1,7 +1,7 @@
 import React from "react";
 import {capitalize} from "@mui/material";
-import ResponsiveAppBar from "../../ResponsiveAppBar/ResponsiveAppBar";
-import useLangSelector from "../../../hooks/useLangSelector";
+import ResponsiveAppBar from "../../components/ResponsiveAppBar/ResponsiveAppBar";
+import useLangSelector from "../../hooks/useLangSelector";
 
 
 function Contact(props: {data: any}) {

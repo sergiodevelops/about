@@ -1,6 +1,6 @@
 import IconButton from "@mui/material/IconButton";
 import {Link} from "react-router-dom";
-import logo from "../../assets/logo193.png";
+import logo from "../../presentation/web/assets/logo193.png";
 import * as React from "react";
 
 

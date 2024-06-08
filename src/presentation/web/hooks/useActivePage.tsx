@@ -1,6 +1,6 @@
-import {useAppDispatch, useAppSelector} from "../app/hooks";
+import {useAppDispatch, useAppSelector} from "../../../app/hooks";
 import {useEffect, useState} from "react";
-import {ACTIVE_PAGE} from "../constants/pages";
+import {ACTIVE_PAGE} from "../../../constants/pages";
 import {setActivePage} from "../reducers/activePage";
 
 

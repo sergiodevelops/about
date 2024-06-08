@@ -1,8 +1,8 @@
 import React from "react";
-import ResponsiveAppBar from "../../ResponsiveAppBar/ResponsiveAppBar";
+import ResponsiveAppBar from "../../components/ResponsiveAppBar/ResponsiveAppBar";
 import {capitalize} from "@mui/material";
-import useLangSelector from "../../../hooks/useLangSelector";
-import Building from "../../Building/Building";
+import useLangSelector from "../../hooks/useLangSelector";
+import Building from "../../components/Building/Building";
 
 
 function Home(props: {data: any}) {

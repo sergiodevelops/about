@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit'
-import {ACTIVE_PAGE} from "../constants/pages";
+import {ACTIVE_PAGE} from "../../../constants/pages";
 
 
 export const activePage = createSlice({

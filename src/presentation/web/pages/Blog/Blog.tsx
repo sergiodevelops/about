@@ -1,8 +1,8 @@
 import React, {useEffect, useState} from "react";
 import {capitalize} from "@mui/material";
-import ResponsiveAppBar from "../../ResponsiveAppBar/ResponsiveAppBar";
-import {useAppSelector} from "../../../app/hooks";
-import Building from "../../Building/Building";
+import ResponsiveAppBar from "../../components/ResponsiveAppBar/ResponsiveAppBar";
+import {useAppSelector} from "../../../../app/hooks";
+import Building from "../../components/Building/Building";
 
 
 function Blog(props: {data: any}) {

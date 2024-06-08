@@ -10,7 +10,7 @@ import About from "./components/pages/About/About";
 import Contact from "./components/pages/Contact/Contact";
 import {JsonData} from './data/data'
 import Blog from './components/pages/Blog/Blog';
-import useActivePage from "./hooks/useActivePage";
+import useActivePage from "./presentation/web/hooks/useActivePage";
 import {ACTIVE_PAGE} from "./constants/pages";
 import functionalProgramming from "./concepts/functionalProgramming";
 import javascriptSorprises from "./concepts/javascriptSorprises";
