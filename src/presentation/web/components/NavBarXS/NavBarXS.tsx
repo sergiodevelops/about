@@ -6,7 +6,7 @@ import {NavLink} from "react-router-dom";
 import useLangSelector from "../../hooks/useLangSelector";
 import { Button } from "@mui/material";
 import useActivePage from "../../hooks/useActivePage";
-import {getClassNameItemMenu} from "../../utils/StylesUtils";
+import {getClassNameItemMenu} from "../../utils/styles";
 import {ACTIVE_PAGE, PAGES} from "../../../../constants/pages";
 import {JsonData} from "../../../../data/data";
 
