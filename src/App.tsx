@@ -8,12 +8,16 @@ import {Navigate, Route, Routes, useNavigate} from "react-router-dom"
 import {JsonData} from './data/data'
 import useActivePage from "./presentation/web/hooks/useActivePage";
 import {ACTIVE_PAGE} from "./constants/pages";
-import functionalProgramming from "./concepts/functionalProgramming";
-import javascriptSorprises from "./concepts/javascriptSorprises";
 import Blog from './presentation/web/pages/Blog/Blog';
 import Contact from "./presentation/web/pages/Contact/Contact";
 import About from "./presentation/web/pages/About/About";
 import Home from "./presentation/web/pages/Home/Home";
+
+import cleanCodeAndSOLID from "./concepts/cleanCodeAndSOLID";
+import functionalProgramming from "./concepts/functionalProgramming";
+// import javascriptSorprises from "./concepts/javascriptSorprises";
+// import Persona from "./concepts/OOP";
+// import DependencyInyection from "./concepts/dependencyInyection";
 
 
 function App() {
@@ -27,10 +31,20 @@ function App() {
     }, []);
 
     useEffect(() => {
-        // CONCEPTS about Functional Programming
-        functionalProgramming();
-        // CONCEPTS about Javascript Sorprises
-        javascriptSorprises();
+        // About "Clean Code" and "SOLID" principles
+        cleanCodeAndSOLID();
+
+        // About "Dependency Inyection" design pattern
+        // const dependencyInyection1 = new DependencyInyection();
+
+        // About "OOP" paradigm
+        // const persona1 = new Persona();
+
+        // About "Functional Programming" paradigm
+        // functionalProgramming();
+
+        // About "TypeScript / JavaScript" (language sorprises)
+        // javascriptSorprises();
     }, []);
 
 

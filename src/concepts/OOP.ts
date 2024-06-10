@@ -1,4 +1,4 @@
-export class Persona {
+export default class Persona {
     constructor() {}
 
     public name: string = "fa"
