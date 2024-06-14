@@ -31,7 +31,12 @@ export function ErrorComponent(props: ErrorComponentProps) {
                 <br/>
                 {errorInfo && errorInfo.componentStack}
             </details>
-            <Button color={"success"} variant={"outlined"} onClick={handleOnClick}>Go to Home Page</Button>
+            <Button
+                color={"success"}
+                variant={"outlined"}
+                onClick={handleOnClick}>
+                Go to Home Page
+            </Button>
         </div>
     );
 }

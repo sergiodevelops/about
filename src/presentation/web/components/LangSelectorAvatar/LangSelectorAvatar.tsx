@@ -5,9 +5,12 @@ import MenuItem from "@mui/material/MenuItem";
 import Typography from "@mui/material/Typography";
 import useLangSelector from "../../hooks/useLangSelector";
 import {LANG_CODE, LANGUAGES} from "../../../../constants/languages";
-
+import {getFilePulicUrl} from "../../utils/strings";
+import {FILE_TYPES} from "../../../../constants/fileTypes";
 
 function LangSelectorAvatar() {
+    const {PUBLIC_URL} = process.env;
+
     const {currentLang, updateCurrentLang} = useLangSelector();
     const [anchorElUser, setAnchorElUser] = React.useState<null | HTMLElement>(null);
 
@@ -28,13 +31,21 @@ function LangSelectorAvatar() {
     };
 
 
+
+
     return (
         <>
             <IconButton component={"div"} className={"App-logo"} onClick={handleOpenUserMenu} sx={{fontSize: "0rem"}}>
                 <img
                     style={{background: "black", borderRadius: "50%"}}
                     color={"red"}
-                    src={`./${currentLang}.png`}
+                    src={
+                        getFilePulicUrl({
+                            subUrl: `images/`,
+                            fileName: currentLang,
+                            fileType: FILE_TYPES.PNG
+                        })
+                    }
                     className={"App-logo-img App-language"}
                     alt={"bandera que representa el idioma"}
                 />
@@ -46,16 +57,6 @@ function LangSelectorAvatar() {
                     {currentLang.toUpperCase()}
                 </Typography>
             </IconButton>
-            {/*<Autocomplete
-                title={`Select one language`}
-                disableClearable
-                getOptionLabel={option => `${option.code.toUpperCase()} - ${capitalize(option.name)}`}
-                value={language}
-                options={LANGUAGES}
-                renderOption={handleRenderOption}
-                renderInput={handleRenderInputLanguage}
-                onChange={handleOnChangeLanguage}
-            />*/}
             <Menu
                 onClose={handleCloseUserMenu}
                 sx={{mt: '45px'}}
@@ -78,7 +79,13 @@ function LangSelectorAvatar() {
                         key={language.code}
                     >
                         <img
-                            src={`./${language.code}.png`}
+                            src={
+                                getFilePulicUrl({
+                                    subUrl: `images/`,
+                                    fileName: language.code,
+                                    fileType: FILE_TYPES.PNG
+                                })
+                            }
                             className={"App-logo App-logo-menu-language"}
                             alt={"bandera que representa el idioma"}
                         />
