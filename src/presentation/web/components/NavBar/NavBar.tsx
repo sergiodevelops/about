@@ -2,9 +2,8 @@ import Button from "@mui/material/Button";
 import {Link, NavLink} from "react-router-dom";
 import * as React from "react";
 import useLangSelector from "../../hooks/useLangSelector";
-import {setActivePage} from "../../reducers/activePage";
 import useActivePage from "../../hooks/useActivePage";
-import {ACTIVE_PAGE, PAGES} from "../../../../constants/pages";
+import {ACTIVE_PAGE, ACTIVE_PAGES} from "../../../../constants/pages";
 import {JsonData} from "../../../../data/data";
 
 
@@ -15,7 +14,7 @@ function NavBar() {
 
     return (
         <>
-            {PAGES.map((page: ACTIVE_PAGE, index: number) => {
+            {ACTIVE_PAGES.map((page: ACTIVE_PAGE, index: number) => {
                 return (
                     <NavLink
                         className={({ isActive, isPending }) => isPending ? "pending" : page === currentActivePage ? "active" : isActive ? "active" : ""}
