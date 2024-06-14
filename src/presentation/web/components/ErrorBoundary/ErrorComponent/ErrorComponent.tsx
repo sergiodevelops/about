@@ -17,7 +17,7 @@ export function ErrorComponent(props: ErrorComponentProps) {
     const {updateActivePageOnStore} = useActivePage();
     const navigate = useNavigate();
 
-    function handleOnClick() {
+    const handleOnClick = (): void => {
         updateActivePageOnStore(ACTIVE_PAGE.HOME);
         navigate(`/about/${ACTIVE_PAGE.HOME.toLowerCase()}`);
     }
@@ -31,7 +31,6 @@ export function ErrorComponent(props: ErrorComponentProps) {
                 <br/>
                 {errorInfo && errorInfo.componentStack}
             </details>
-            <Link to={`/about/${ACTIVE_PAGE.HOME.toLowerCase()}`}>FAFA</Link>
             <Button
                 color={"success"}
                 variant={"outlined"}
