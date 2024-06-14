@@ -1,7 +1,7 @@
 import React from "react";
-import ResponsiveAppBar from "../../components/ResponsiveAppBar/ResponsiveAppBar";
+import ResponsiveAppBar from "../../ResponsiveAppBar/ResponsiveAppBar";
 import {capitalize} from "@mui/material";
-import useLangSelector from "../../hooks/useLangSelector";
+import useLangSelector from "../../../hooks/useLangSelector";
 
 
 function About(props: {data: any}) {

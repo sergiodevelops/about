@@ -1,8 +1,8 @@
 import React, {useState} from "react";
-import ResponsiveAppBar from "../../components/ResponsiveAppBar/ResponsiveAppBar";
+import ResponsiveAppBar from "../../ResponsiveAppBar/ResponsiveAppBar";
 import {capitalize} from "@mui/material";
-import useLangSelector from "../../hooks/useLangSelector";
-import Building from "../../components/Building/Building";
+import useLangSelector from "../../../hooks/useLangSelector";
+import Building from "../../Building/Building";
 
 
 function Login(props: {data: any}) {

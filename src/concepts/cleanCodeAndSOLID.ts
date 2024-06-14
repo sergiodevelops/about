@@ -64,7 +64,8 @@ export default function cleanCodeAndSOLID () {
             case AllowedFruitColorName.PURPLE:
                 return Object.values(PurpleFruitName);
             default:
-                throw Error('The color must be: ' + Object.values(AllowedFruitColorName));
+                // throw new Error('The color must be: ' + Object.values(AllowedFruitColorName));
+                return []
         }
     }
 

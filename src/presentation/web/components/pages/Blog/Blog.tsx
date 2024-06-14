@@ -1,8 +1,8 @@
 import React, {useEffect, useState} from "react";
 import {capitalize} from "@mui/material";
-import ResponsiveAppBar from "../../components/ResponsiveAppBar/ResponsiveAppBar";
-import {useAppSelector} from "../../../../app/hooks";
-import Building from "../../components/Building/Building";
+import ResponsiveAppBar from "../../ResponsiveAppBar/ResponsiveAppBar";
+import {useAppSelector} from "../../../../../app/hooks";
+import Building from "../../Building/Building";
 
 
 function Blog(props: {data: any}) {
@@ -11,6 +11,7 @@ function Blog(props: {data: any}) {
 
 
     useEffect(() => {
+        throw new Error('This ERROR is fake, ErrorBoundary class with "componentDidCatch" method implemented')
         setCurrentLang(langSelector.value)
     }, [langSelector.value]);
 
