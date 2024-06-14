@@ -19,7 +19,7 @@ export function ErrorComponent(props: ErrorComponentProps) {
 
     const handleOnClick = (): void => {
         updateActivePageOnStore(ACTIVE_PAGE.HOME);
-        navigate(`/about/${ACTIVE_PAGE.HOME.toLowerCase()}`);
+        navigate(`about/${ACTIVE_PAGE.HOME.toLowerCase()}`);
     }
 
 
