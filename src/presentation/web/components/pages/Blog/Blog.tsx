@@ -11,7 +11,7 @@ function Blog(props: {data: any}) {
 
 
     useEffect(() => {
-        throw new Error('This ERROR is fake, ErrorBoundary class with "componentDidCatch" method implemented')
+        throw new Error('This is a fake error for test the ErrorBoundary class with "componentDidCatch" method implemented')
         setCurrentLang(langSelector.value)
     }, [langSelector.value]);
 
