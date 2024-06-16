@@ -5,17 +5,17 @@ My personal GUI React App
 [//]: # (Una breve descripción del proyecto que explique 
 su propósito y sus características principales.)
 
-### Situación
-**S)** El aprendizaje como programador no tiene fin, y cada día, sea cual sea el producto de software que estemos desarrollando, este deberá ser modificado constantemente en función de los cambios del entorno para asi evitar que se vea afectado nuestro "corazón del negocio o necesidad real". 
+### Introducción
+El aprendizaje como programador no tiene fin, y cada día, sea cual sea el producto de software que estemos desarrollando, este deberá ser modificado constantemente en función de los cambios del entorno para asi evitar que se vea afectado nuestro "corazón del negocio o necesidad real". 
 
-### Tareas
-**T)** Por lo tanto, he decidido crear este espacio "puramente personal y público" para compartir lo que voy aprendiendo día a día, sobre los conceptos, principios, paradigmas, metodologías y buenas prácticas aplicadas en el desarrollo del software.
+### Motivación
+Por lo tanto, he decidido crear este espacio "puramente personal y público" para compartir lo que voy aprendiendo día a día, sobre los conceptos, principios, paradigmas, metodologías y buenas prácticas aplicadas en el desarrollo del software.
 
-### Acciones
-**A)** En esta ocasión, se trata de una simple "React App" (interfaz gráfica web de usuario), con un fuerte enfoque a la buena experiencia del usuario final, donde se harán modificaciones constantes que sean necesarias, centradas siempre en el "corazón del negocio o necesidad real", integrando poco a poco en los  conceptos, principios, buenas prácticas aprendidas, con toda su documentación al día.
+### Sobre este repositorio
+En esta ocasión, se trata de una simple "React App" (interfaz gráfica web de usuario), con un fuerte enfoque a la buena experiencia del usuario final, donde se harán modificaciones constantes que sean necesarias, centradas siempre en el "corazón del negocio o necesidad real", integrando poco a poco en los  conceptos, principios, buenas prácticas aprendidas, con toda su documentación al día.
 
-### Resultados
-**R)** Este es uno de los proyectos con el cual aprenderé, creceré y compartiré todo lo aprendido día a día en esta hermosa profesión como lo es "la programación".
+### Objetivo
+Este es uno de los proyectos con el cual aprenderé, creceré y compartiré todo lo aprendido día a día en esta hermosa profesión como lo es "la programación".
 
 
 ## [Tabla_de_Contenidos](#Tabla_de_Contenidos)
