@@ -1,1 +1,3 @@
-export default interface ICityGeolocationFindOneUseCase {}
+export default interface ICityGeolocationFindOneUseCase {
+
+}
