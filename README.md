@@ -88,14 +88,6 @@ yarn dev
 
 [//]: # (## ╰┈➤Contribución)
 [//]: # (Guía para contribuir al proyecto. Incluye reglas para pull requests, código de conducta, etc.)
-[//]: # (
-1. Haz un fork del repositorio
-1. Crea una nueva rama \(git checkout -b feature/nueva-funcionalidad\)
-2. Realiza los cambios y haz commits (git commit -am 'Añade nueva funcionalidad'\)
-3. Haz push a la rama \(git push origin feature/nueva-funcionalidad\)
-4. Abre un pull request
-Consulta el archivo CONTRIBUTING.md para más detalles.
-)
 
 
 

@@ -1,3 +1,10 @@
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+
+// Overrides go here
+a {
+  color: white;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

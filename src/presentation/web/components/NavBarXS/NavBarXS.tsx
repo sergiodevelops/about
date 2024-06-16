@@ -8,7 +8,7 @@ import { Button } from "@mui/material";
 import useActivePage from "../../hooks/useActivePage";
 import {getClassNameItemMenu} from "../../utils/styles";
 import {ACTIVE_PAGE, ACTIVE_PAGES} from "../../../../constants/pages";
-import {JsonData} from "../../../../data/data";
+import {JsonData} from "../../../../constants/data";
 
 
 function NavBarXS() {

@@ -6,7 +6,7 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import {Navigate, Route, Routes, useNavigate} from "react-router-dom"
-import {JsonData} from '../../data/data'
+import {JsonData} from '../../constants/data'
 import useActivePage from "./hooks/useActivePage";
 import {ACTIVE_PAGE} from "../../constants/pages";
 import Blog from './components/pages/Blog/Blog';
@@ -15,6 +15,7 @@ import About from "./components/pages/About/About";
 import Home from "./components/pages/Home/Home";
 import ErrorBoundary from './components/ErrorBoundary/ErrorBoundary';
 import ProgrammingConcepts from "../../concepts";
+import './App.scss'
 
 
 function App() {

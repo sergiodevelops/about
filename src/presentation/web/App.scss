@@ -34,7 +34,7 @@ ul {
 .App-Section-Paragraph {
   font-size: 1.3rem;
   text-align: justify;
-  padding: 1rem 2rem;
+  padding: 0rem 0rem;
 }
 
 .Section-Contact-Info {
@@ -90,6 +90,7 @@ ul {
 }
 
 .Section-title {
+  margin: 2rem 0;
   font-weight: normal;
   font-size: 2rem;
 }
@@ -117,12 +118,12 @@ ul {
   }
 }
 
-@media only screen and (min-width: 400px) {
-  .App-Section-Paragraph {
-    letter-spacing: .13rem;
-    margin: 0 3rem;
-  }
-}
+//@media only screen and (min-width: 400px) {
+//  .App-Section-Paragraph {
+//    letter-spacing: .13rem;
+//    margin: 0 3rem;
+//  }
+//}
 
 
 @media (prefers-reduced-motion: no-preference) {

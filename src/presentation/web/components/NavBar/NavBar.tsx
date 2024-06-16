@@ -4,7 +4,7 @@ import * as React from "react";
 import useLangSelector from "../../hooks/useLangSelector";
 import useActivePage from "../../hooks/useActivePage";
 import {ACTIVE_PAGE, ACTIVE_PAGES} from "../../../../constants/pages";
-import {JsonData} from "../../../../data/data";
+import {JsonData} from "../../../../constants/data";
 
 
 function NavBar() {

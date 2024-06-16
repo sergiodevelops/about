@@ -131,3 +131,4 @@ dist
 .idea/
 *.bkp
 *.BKP
+*storybook.log
