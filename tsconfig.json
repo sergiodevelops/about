@@ -10,16 +10,27 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "strictPropertyInitialization": false,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "module": "esnext",
+    "noImplicitAny": true,
+    "removeComments": true,
     "moduleResolution": "node",
+    "preserveConstEnums": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
+    "strictNullChecks": true,
+    "sourceMap": true,
     "jsx": "react-jsx",
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "baseUrl": "src",
+    "paths": {
+      "@beam-australia/react-env": ["./../node_modules/beam-australia/react-env"] // this mapping is relative to "baseUrl"
+    }
   },
   "include": [
     "src"
