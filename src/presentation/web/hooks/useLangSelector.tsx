@@ -1,4 +1,4 @@
-import {useAppDispatch, useAppSelector} from "../../../app/hooks";
+import {useAppDispatch, useAppSelector} from "../../../redux/hooks";
 import {useEffect, useState} from "react";
 import {LANG_CODE, LANG_EN} from "../../../constants/languages";
 import {setCurrentLang} from "../reducers/langSelector";
