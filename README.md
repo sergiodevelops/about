@@ -1,37 +1,60 @@
-# ABOUT
+# <> ABOUT </>
+
 My personal GUI React App
 
-## Descripción
+Link to the project on "GitHub":
+
+https://github.com/sergiodevelops/about
+
+Link to the app publication with "GitHub Pages":
+
+https://sergiodevelops.github.io/about
+
+
+
+
+## Multilanguage_README
+
+[![it](https://img.shields.io/badge/lang-ITALIANO-red.svg)](https://github.com/sergiodevelops/about/blob/master/README.it.md)
+
+[![es](https://img.shields.io/badge/lang-ESPAÑOL-yellow.svg)](https://github.com/sergiodevelops/about/blob/master/README.es.md)
+
+
+
+
+## Description
 [//]: # (Una breve descripción del proyecto que explique 
 su propósito y sus características principales.)
 
-### Introducción
-El aprendizaje como programador no tiene fin, y cada día, sea cual sea el producto de software que estemos desarrollando, este deberá ser modificado constantemente en función de los cambios del entorno para asi evitar que se vea afectado nuestro "corazón del negocio o necesidad real". 
+### Introduction
+Learning as a programmer has no end, and every day, whatever the software product we are developing, it must be constantly modified based on changes in the environment in order to prevent our "heart of the business or real need" from being affected. 
 
-### Motivación
-Por lo tanto, he decidido crear este espacio "puramente personal y público" para compartir lo que voy aprendiendo día a día, sobre los conceptos, principios, paradigmas, metodologías y buenas prácticas aplicadas en el desarrollo del software.
+### Motivation
+Therefore, I have decided to create this "purely personal and public" space to share what I am learning every day, about the concepts, principles, paradigms, methodologies and good practices applied in software development.
 
-### Sobre este repositorio
-En esta ocasión, se trata de una simple "React App" (interfaz gráfica web de usuario), con un fuerte enfoque a la buena experiencia del usuario final, donde se harán modificaciones constantes que sean necesarias, centradas siempre en el "corazón del negocio o necesidad real", integrando poco a poco en los  conceptos, principios, buenas prácticas aprendidas, con toda su documentación al día.
+### About this repository
+On this occasion, it is a simple "React App" (graphical web user interface), with a strong focus on a good end-user experience, where constant modifications will be made as necessary, always focused on the "heart of the business." or real need", gradually integrating the concepts, principles, good practices learned, with all its documentation up to date.
 
-### Objetivo
-Este es uno de los proyectos con el cual aprenderé, creceré y compartiré todo lo aprendido día a día en esta hermosa profesión como lo es "la programación".
+### Objective
+This is one of the projects with which I will learn, grow and share everything I learn every day in this beautiful profession such as "programming".
 
 
-## [Tabla_de_Contenidos](#Tabla_de_Contenidos)
 
-1. [Instalación](#instalación)
-2. [Uso](#uso)
-3. [Documentación](#documentación)
+
+## [Table_of_Contents](#Table_of_Contents)
+
+1. [Installation](#installation)
+2. [Use](#use)
+3. [Documentation](#documentation)
 4. [Test](#test)
-5. [Licencia](#licencia)
-6. [Contacto](#contacto)
-7. [Agradecimientos](#agradecimientos)
+5. [License](#license)
+6. [Contact](#contact)
+7. [Thanks](#thanks)
 
 
 
 
-## ╰┈➤Instalación
+## ╰┈➤Installation
 
 [//]: # (Instrucciones para instalar el proyecto. Incluye los requisitos previos y 
 comandos necesarios.)
@@ -48,12 +71,13 @@ npm install
 ```bash
 yarn
 ```
-[☝️ Regresar al índice ⤴](#Tabla_de_Contenidos)
+
+[☝️ Return to index ⤴](#Table_of_Contents)
 
 
 
 
-## ╰┈➤Uso
+## ╰┈➤Use
 [//]: # (Instrucciones para usar el proyecto. Incluye ejemplos de comandos y código.)
 For run the "application" web project do:
 - with "npm"
@@ -65,23 +89,22 @@ npm run dev
 yarn dev
 ```
 
-[☝️ Regresar al índice ⤴](#Tabla_de_Contenidos)
+[☝️ Return to index ⤴](#Table_of_Contents)
 
 
 
 
 [//]: # (## ╰┈➤Ejemplos)
-[//]: # (Algunos ejemplos prácticos de uso de tu proyecto.)
+[//]: # (Algunos ejemplos prácticos de use de tu proyecto.)
 
 
 
 
-## ╰┈➤Documentación
-[//]: # (Un enlace a la documentación completa si está en otro lugar.)
+## ╰┈➤Documentation
+[//]: # (Un enlace a la documentation completa si está en otro lugar.)
+[☝️ Multilanguage README ⤴](#Multilanguage_README)
 
-[README.md](https://github.com/sergiodevelops/about/blob/master/README.md)
-
-[☝️ Regresar al índice ⤴](#Tabla_de_Contenidos)
+[☝️ Return to index ⤴](#Table_of_Contents)
 
 
 
@@ -105,37 +128,30 @@ npm run test
 yarn test
 ```
 
-[☝️ Regresar al índice ⤴](#Tabla_de_Contenidos)
+[☝️ Return to index ⤴](#Table_of_Contents)
 
 
 
 
-## ╰┈➤Licencia
-Este proyecto está bajo la Licencia MIT - consulta el archivo LICENSE para más detalles.
+## ╰┈➤License
+This project is under the MIT License - see the LICENSE file for details.
 
-[☝️ Regresar al índice ⤴](#Tabla_de_Contenidos)
-
-
+[☝️ Return to index ⤴](#Table_of_Contents)
 
 
-## ╰┈➤Contacto
-[@sergiodevelops su LinkedIn](https://www.linkedin.com/in/sergiodevelops/)
+
+
+## ╰┈➤Contact
+[@sergiodevelops](https://www.linkedin.com/in/sergiodevelops/)
+[my LinkedIn](https://www.linkedin.com/in/sergiodevelops/)
 [https://ln.com/in/sergiodevelops/](https://www.linkedin.com/in/sergiodevelops/)
 
-Enlace al proyecto en "GitHub": 
-
-https://github.com/sergiodevelops/about
-
-Enlace a la publicación de la app con "GitHub Pages":
-
-https://sergiodevelops.github.io/about
-
-[☝️ Regresar al índice ⤴](#Tabla_de_Contenidos)
+[☝️ Return to index ⤴](#Table_of_Contents)
 
 
 
 
-## ╰┈➤Agradecimientos
-Expreso aquí mis agradecimientos a todas aquellas personas y compañeros de trabajo que comparten día a día sus experiencias y conocimientos como técnicas, buenas prácticas, patrones, etc. que hacen crecer activamente el mundo del desarrollo del software.
+## ╰┈➤Thanks
+Here I express my gratitude to all those people and co-workers who share their experiences and knowledge every day such as techniques, good practices, patterns, etc. who actively grow the world of software development.
 
-[☝️ Regresar al índice ⤴](#Tabla_de_Contenidos)
+[☝️ Return to index ⤴](#Table_of_Contents)
