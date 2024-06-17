@@ -126,18 +126,18 @@ echo "\n"
 echo "Alta de objetos del repositorio"
 echo "-------------------------------"
 
-mkdir -p "src/infraestructure/repositories/${domainName}"
+mkdir -p "src/infrastructure/repositories/${domainName}"
 
 read -p "Por favor ingrese el nombre de la clase del repositorio como por ej. 'MyRepositoryNameDB' or 'MyRepositoryNameFake': " repositoryName
 repositoryName="${domainClass}${repositoryName}Repository"
 read -p "El nombre de la clase del repositorio será: '${repositoryName}'" pausa
 
-rm "src/infraestructure/repositories/${domainName}/${repositoryName}.ts";
+rm "src/infrastructure/repositories/${domainName}/${repositoryName}.ts";
 
 echo "import { injectable } from 'inversify';
 import env from '@beam-australia/react-env';
-import { checkResp, getRespJson, throwError } from 'infraestructure/helpers/Responses';
-import Authentication from 'infraestructure/repositories/authentication/Authentication';
+import { checkResp, getRespJson, throwError } from 'infrastructure/helpers/Responses';
+import Authentication from 'infrastructure/repositories/authentication/Authentication';
 import ${repoInterface} from 'application/repositories/${repoInterface}';
 import ${domainClass} from 'domain/${domainName}/${domainClass}';
 
@@ -155,7 +155,7 @@ export default class ${repositoryName} extends Authentication implements ${repoI
         this.headers = new Headers();
         this.headers.set('Content-Type', 'application/json');
     }
-}" | tee -a "src/infraestructure/repositories/${domainName}/${repositoryName}.ts";
+}" | tee -a "src/infrastructure/repositories/${domainName}/${repositoryName}.ts";
 
 echo "----------------------------------------";
 echo "The new entity was created successfully!";
