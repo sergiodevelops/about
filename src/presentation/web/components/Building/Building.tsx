@@ -9,9 +9,11 @@ function Building() {
 
 
     return (
-        <Typography className={"Section-title Building"} component={"h1"}>
-            {(JsonData as any)[currentLang].Building.label.toUpperCase()}
-        </Typography>
+        <h3>
+            <strong className={"Building"}>
+                {(JsonData as any)[currentLang].Building.label.toUpperCase()}
+            </strong>
+        </h3>
     );
 }
 
