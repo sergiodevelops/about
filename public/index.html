@@ -1,44 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
   <head>
+    <!-- HTML Meta Tags https://www.opengraph.xyz -->
+    <title>LUNO⚛Dev</title>
+    <meta name="description" content="Web site about LUNO⚛Dev">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created by LUNO Dev"
-    />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/images/favicon.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
     <link rel="icon" href="%PUBLIC_URL%/images/favicon.png" type="image/x-icon">
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--  https://github.com/facebook/create-react-app/issues/2353  -->
-    <!--    <script src="%PUBLIC_URL%/env.js"></script>-->
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "favcon.ico" or "favcon.ico", "%PUBLIC_URL%/favcon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>LUNO Dev</title>
-    <!-- Start Single Page Apps for GitHub Pages -->
+    <!-- Facebook Meta Tags -->
+    <meta property="og:description" content="Web site about LUNO⚛Dev">
+    <meta property="og:url" content="https://sergiodevelops.github.io/about">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="LUNO⚛Dev">
+    <meta property="og:image" content="%PUBLIC_URL%/images/profile.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="sergiodevelops.github.io">
+    <meta property="twitter:url" content="https://sergiodevelops.github.io/about">
+    <meta name="twitter:title" content="LUNO⚛Dev">
+    <meta name="twitter:description" content="Web site created by LUNO⚛Dev">
+    <meta name="twitter:image" content="%PUBLIC_URL%/images/profile.png">
+
+    <!-- https://github.com/rafgraph/spa-github-pages -->
     <script type="text/javascript">
-      // Single Page Apps for GitHub Pages
-      // MIT License
-      // https://github.com/rafgraph/spa-github-pages
-      // This script checks to see if a redirect is present in the query string,
-      // converts it back into the correct url and adds it to the
-      // browser's history using window.history.replaceState(...),
-      // which won't cause the browser to attempt to load the new url.
-      // When the single page app is loaded further down in this file,
-      // the correct url will be waiting in the browser's history for
-      // the single page app to route accordingly.
       (function(l) {
         if (l.search[1] === '/' ) {
           let decoded = l.search.slice(1).split('&').map(function(s) {
@@ -50,22 +39,10 @@
         }
       }(window.location))
     </script>
-    <!-- End Single Page Apps for GitHub Pages -->
   </head>
+
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!-- single page app in bundle.js -->
-    <!--<script src="/build/bundle.js"/>-->
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
