@@ -36,8 +36,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "start2": "react-env --dest public && react-scripts start",
-    "serve2": "react-env --dest build && serve -s build",
     "build": "CI=false && BUILD_PATH='./docs' react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

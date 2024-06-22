@@ -3,7 +3,7 @@ export function Footer() {
 
     return(
         <footer className="footer">
-            {`Copyright © 2017 - ${ currentYear || "2024"} | LUNO Dev®. All rights reserved.`}
+         <strong>LUNO⚛Dev ®</strong> <small>{`Copyright © 2017 - ${ currentYear || "2024"}. All rights reserved.`}</small>
         </footer>
     );
 }

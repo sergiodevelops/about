@@ -24,7 +24,7 @@ function About(props: {data: any}) {
                 </h1>
                 <Container>
                     <Row>
-                        <Col xs={{span: 6, offset: 3}} lg={{span: 6, offset: 0}}>
+                        <Col xs={{span: 12, offset: 0}} lg={{span: 5, offset: 0}}>
                             <Col xs={{span: 6, offset: 3}} lg={{span: 12, offset: 0}}>
                                 <img className={"App-logo-img"}
                                      src={
@@ -38,7 +38,7 @@ function About(props: {data: any}) {
                                 />
                             </Col>
                         </Col>
-                        <Col xs={{span: 12, offset: 0}} lg={{span: 6, offset: 0}}>
+                        <Col xs={{span: 12, offset: 0}} lg={{span: 7, offset: 0}}>
                             <p className="App-Section-Paragraph">{props.data[currentLang].About.presentation}</p>
                         </Col>
                     </Row>
