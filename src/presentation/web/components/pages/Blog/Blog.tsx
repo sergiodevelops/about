@@ -19,12 +19,12 @@ function Blog(props: {data: any}) {
     return (
         <>
             <ResponsiveAppBar/>
+            <Building/>
             <div className="App-Section">
                 <h1 className={"Section-title"}>
                     {capitalize(props.data[currentLang].Blog.label)}
                 </h1>
             </div>
-            <Building/>
         </>
     );
 }

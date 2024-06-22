@@ -12,6 +12,9 @@ a.LogoNickname {
 
 
 a.active {
+  //background-color: rgba(0, 0, 0, 0.18);
+}
+a:active {
   background-color: rgba(0, 0, 0, 0.18);
 }
 
@@ -29,6 +32,10 @@ ul {
   color: white;
   text-align: center;
   min-height: 100vh;
+}
+
+.App-Section {
+  min-height: 80vh;
 }
 
 .App-Section-Paragraph {
@@ -102,6 +109,7 @@ ul {
 
 .Building {
   color: yellow;
+  padding: 1rem 0rem;
 }
 
 .App-link {

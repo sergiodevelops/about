@@ -25,17 +25,21 @@ export function ErrorComponent(props: ErrorComponentProps) {
 
     return (
         <div>
-            <h2>Something went wrong!</h2>
-            <details open={true} style={{whiteSpace: 'pre-wrap'}}>
+            <h1>Something went wrong!</h1>
+            <h2>📢 This is only one Fake Error 🤪</h2>
+            <h3>⚛️ 🎉 {error?.message} 🤪</h3>
+            <details open style={{whiteSpace: 'pre-wrap'}}>
                 {error && error.toString()}
                 <br/>
                 {errorInfo && errorInfo.componentStack}
             </details>
             <Button
-                color={"success"}
+                className={"& .css-1rwt2y5-MuiButtonBase-root-MuiButton-root"}
+                style={{color: "white", backgroundColor: "#525005"}}
                 variant={"outlined"}
-                onClick={handleOnClick}>
-                Go to Home Page
+                onClick={handleOnClick}
+            >
+                <span style={{fontSize: "1.5rem"}}>🐝</span> Go to Home Page 👆
             </Button>
         </div>
     );

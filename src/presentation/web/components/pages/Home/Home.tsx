@@ -12,12 +12,12 @@ function Home(props: {data: any}) {
     return (
         <>
             <ResponsiveAppBar/>
+            <Building/>
             <div className="App-Section">
                 <h1 className={"Section-title"}>
                     {capitalize(props.data[currentLang].Home.label)}
                 </h1>
             </div>
-            <Building/>
         </>
     );
 }

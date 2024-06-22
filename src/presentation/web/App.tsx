@@ -15,7 +15,7 @@ import About from "./components/pages/About/About";
 import Home from "./components/pages/Home/Home";
 import ErrorBoundary from './components/ErrorBoundary/ErrorBoundary';
 import ProgrammingConcepts from "../../concepts";
-import './App.scss'
+import {Footer} from "./components/Footer/Footer";
 
 
 function App() {
@@ -65,6 +65,7 @@ function App() {
                     element={<Navigate to={"/about"} replace/>}
                 />
             </Routes>
+            <Footer/>
         </div>
     );
 }
